@@ -1,0 +1,516 @@
+.header-menu input {
+    opacity: 0;
+    height: 0px;
+}
+.right-contact {
+	width: 47%;
+}
+
+
+@media (max-width:1160px) {
+    .container {
+        width: 100%;
+        max-width: 1140px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .header-menu {
+        width: 58%;
+    }
+    .header-button {
+        width: 12%;
+        text-align: right;
+    }
+    .header-menu input {
+        display: none;
+    }
+    .p-items {
+        padding: 40px 13px;
+    }
+    .p-items h4 {
+        font-size: 23px;
+    }
+    .p-icon span {
+        font-size: 40px;
+    }
+    .team-member {
+        width: 45%;
+        margin-right: 8px;
+        margin-left: 29px;
+    }
+    .team-member:nth-child(2n + 2) {
+        margin-right: 0px;
+    }
+    .service-heading h2 {
+        font-size: 45px;
+    }
+  
+    .testi-items {
+        margin-top: 66px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .t-content {
+        margin-right: 24px;
+    }
+
+
+}
+@media (max-width:1060px) {
+    .quote-content {
+        padding: 44px 48px;
+    }
+    .right-contact {
+        width: 100%;
+    }
+    .map-location {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .right-contact {
+        padding: 8px 0px;
+    }
+    textarea {
+        height: 240px;
+      
+    }
+  
+}
+
+@media (max-width:992px) {
+  
+    .header-button {
+        width: 25%;
+       
+    }
+    .header-logo h2 {
+        font-size: 20px;
+    }
+    .header-menu {
+        width: 50%;
+    }
+    .header-logo {
+        width: 25%;
+    }
+    .content-right h2 {
+        font-size: 31px;
+        margin-bottom: 13px;
+    }
+    .content-right p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .p-content h2 {
+        font-size: 42px;
+        font-weight: 600;
+    }
+    .p-items {
+        width: 31%;
+        padding: 43px 10px;
+        box-sizing: border-box;
+    }
+    .p-items {
+        width: 48%;
+    }
+    .p-items:nth-child(3n + 3) {
+        margin-right: 20px;
+    }
+    .p-items:nth-child(2n + 2) {
+        margin-right: 0px;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-p-content {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .b-item-post img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-p-content p {
+        padding: 0px;
+      
+    }
+    .t-content {
+        width: 30%;
+        margin-right: 22px;
+    }
+    .t-content {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 52px;
+    }
+    .quote-content {
+        padding: 75px 48px;
+    }
+    .t-content p {
+        line-height: 31px;
+    }
+    .quote-content::after {
+        left: 50%;
+       
+    }
+    .t-user {
+        display: flex;
+        justify-content: center;
+    }
+    .t-user {
+        margin-left: 111px;
+    }
+
+
+}
+
+
+
+@media (max-width:884px) {
+    .header-logo img {
+        width: 33px;
+        margin-right: 4px;
+    }
+    .header-logo h2 {
+        font-size: 18px;
+    }
+    .header-menu {
+        text-align: center;
+    }
+    .service-heading h2 {
+        font-size: 45px;
+      
+    }
+    .service-heading p {
+        font-size: 20px;
+    }
+    .service-heading h2 {
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-logo img {
+        float: none;
+    }
+    .header-logo h2 {
+        margin-top: 5px;
+        margin-bottom: 19px;
+    }
+    .header-menu {
+        width: 60%;
+    }
+    .header-button {
+        width: 49%;
+        text-align: right;
+    }
+    .header-button {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .banner-section {
+        margin-top: 148px;
+        padding: 102px 0px;
+
+    }
+    .default-btn {
+        padding: 12px 18px;
+    }
+    .banner-conten h1 {
+        font-size: 39px;
+    }
+    .v-left {
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    .content-right {
+        width: 100%;
+    }
+    .header-menu span {
+        display: block;
+    }
+    .header-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu ul li {
+        display: block;
+    }
+    .header-menu ul li ul {
+        top: -48%;
+        left: 113px;
+    }
+    .header-menu input {
+        display: block;
+    }
+    .header-menu span {
+        display: block;
+        position: absolute;
+        top: 98px;
+        font-size: 26px;
+        left: 6px;
+        color: #6278df;
+        pointer-events: none;
+    }
+    .header-menu {
+        margin-top: 15px;
+    }
+    .header-menu input {
+        opacity: 0;
+    }
+    .header-menu {
+        text-align: left;
+    }
+    .p-items {
+        width: 100%;
+    }
+    .header-section {
+        position: relative;
+    }
+    .banner-section {
+        margin-top: 0px;
+    }
+    .header-menu input {
+        opacity: 0;
+        width: 21px;
+        height: 21px;
+    }
+    .team-heading h2 {
+        font-size: 33px;
+    }
+    .team-member {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+    .service-heading h2 {
+        font-size: 40px;
+      margin: 19px 0px;
+    }
+    .b-headign-left h2 {
+        font-size: 37px;
+        font-weight: 400;
+    }
+    .b-headign-right p {
+        font-size: 1.2rem;
+    }
+    .b-p-content p {
+        font-size: 16px;
+    
+    }
+    .service-heading h2 {
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width:620px) {
+    .header-menu {
+        width: 50%;
+        text-align: left;
+    }
+    .header-button {
+        width: 50%;
+        text-align: right;
+    }
+    .header-menu ul li a {
+        padding: 0px 8px;
+    }
+    .header-section {
+    
+        position: static;
+        
+    }
+    .banner-section {
+        margin-top: 0px;
+    }
+    .banner-conten h1 {
+        font-size: 36px;
+    }
+    .p-content h4 {
+        font-size: 18px;
+    }
+    .p-content h2 {
+        font-size: 25px;
+    }
+    .service-heading h2 {
+        font-size: 36px;
+    }
+    .service-heading p {
+        font-size: 17px;
+    }
+   
+    .service-heading h2 {
+        font-size: 30px;
+        margin-bottom: -9px;
+    }
+    .custom-in {
+        width: 280px;
+        padding: 14px;
+        box-sizing: border-box;
+    }
+    .service-heading .news-btn {
+        padding: 13px 44px;
+        box-sizing: border-box;
+    }
+    .b-headign-left {
+        width: 100%;
+    }
+    .b-headign-right {
+        width: 100%;
+        margin-top: 22px;
+    }
+    .b-item-post {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-content-b ul li span::before {
+      
+        font-size: 22px;
+    }
+    .service-content-b ul li .crose::before {
+        font-size: 22px;
+    }
+    .service-heading h2 {
+        font-size: 22px;
+    }
+    .custom-in {
+        width: 100%;
+    }
+ 
+   
+}
+@media (max-width:500px) {
+    .content-right p {
+        font-size: 16px;
+    }
+    .content-right h2 {
+        font-size: 25px;
+    }
+    .service-heading h2 {
+        font-size: 29px;
+        margin: 17px;
+
+    }
+    .service-heading p {
+        font-size: 14px;
+    }
+    .service-content-t h3 {
+        font-size: 19px;
+    }
+    .service-content-t h2 {
+        font-size: 37px;
+    }
+    .service-content-t h4 {
+        font-size: 18px;
+    }
+    .service-content-t p {
+        font-size: 17px;
+    }
+    .service-content-b ul li span::before {
+        font-size: 20px;
+    }
+    .service-content-b ul li span::before {
+        font-size: 20px;
+    }
+    .team-heading h2 {
+        font-size: 24px;
+    }
+    .custom-in {
+        width: 100%;
+         font-size: 17px;
+        }
+    
+    .service-heading .news-btn {
+        padding: 12px 42px;
+        margin-top: 15px;
+    }
+    .b-headign-left h2 {
+        font-size: 33px;
+       
+    }
+    .default-btn {
+        padding: 13px 9px;
+        font-size: 17px;
+    }
+    .service-content-b ul li .crose::before {
+        font-size: 20px;
+    }
+    .service-content-t h3 {
+        font-size: 15px;
+    }
+    .service-content-t h2 {
+        font-size: 34px;
+    }
+    .service-heading h2 {
+        font-size: 23px;
+    }
+    .default-btn {
+        width: 48%;
+        margin-bottom: 15px;
+        padding: 15px 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width:380px) {
+    .default-btn {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .banner-conten h1 {
+        margin: 13px 0px;
+        margin-bottom: 32px;
+    }
+    .banner-section {
+        padding: 67px 0px;
+    
+    }
+ 
+    .p-content h2 {
+        font-size: 21px;
+        font-weight: 500;
+        margin-bottom: 13px;
+    }
+   
+    .service-heading h2 {
+        font-size: 24px;
+    }
+    .service-heading p {
+        font-size: 16px;
+    }
+    .b-headign-left h2 {
+        font-size: 30px;
+        margin-bottom: -7px;
+    }
+    .b-headign-right p {
+        font-size: 1.1rem;
+        line-height: 27px;
+    }
+    .p-items h4 {
+        font-size: 22px;
+    }
+    .p-items p {
+        font-size: 17px;
+    }
+   
+    
+}
+
